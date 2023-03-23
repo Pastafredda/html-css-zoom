@@ -45,3 +45,40 @@ header{
 .full-screen a{
     color: white;
 }
+
+/* Inizio main */
+.container{
+    height: 100vh;
+    background-color: #7c0000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+.centratura{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100%/7 - 5px);
+    position: relative;
+}
+
+.box img{
+    max-width: 100%;
+}
+
+.nome{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    padding: 2px;
+    bottom: 4px;
+    left: 0;
+}
+
