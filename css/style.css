@@ -8,6 +8,9 @@
 
 header{
     background-color: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 900;
 }
 
 .flex{
@@ -47,12 +50,14 @@ header{
 }
 
 /* Inizio main */
+
+main{
+    background-color: #000000;
+}
 .container{
-    height: 100vh;
-    background-color: #7c0000;
-    padding-top: 20px;
+    padding-top: 80px;
     padding-bottom: 20px;
-    overflow: auto;
+    
 }
 
 .centratura{
@@ -82,3 +87,61 @@ header{
     left: 0;
 }
 
+/* footer */
+
+.end-nav{
+    background-color:#222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 200px;
+}
+
+.left{
+    padding: 20px;
+}
+
+.menu a{
+    color: white;
+    padding-bottom: 4px;
+}
+
+.menu .fa-solid{
+    font-size: 20px;
+}
+
+.menu .fa-angle-up{
+    font-size: 10px;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.center{
+    width: 600px;
+    padding: 20px 0;
+}
+
+.center .fa-share-from-square{
+    color: #5FC805;
+}
+
+.right{
+    background-color: #4A4A4A;
+    color: #de3030;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    
+}
