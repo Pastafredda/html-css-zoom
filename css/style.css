@@ -52,12 +52,15 @@ header{
 /* Inizio main */
 
 main{
-    background-color: #000000;
+    position: relative;
+    
 }
 .container{
+    height: 100vh;
     padding-top: 80px;
     padding-bottom: 20px;
-    
+    background-color: #000000;
+    position: absolute;
 }
 
 .centratura{
@@ -88,6 +91,14 @@ main{
 }
 
 /* footer */
+
+footer{
+    position: fixed;
+    z-index: 900;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
 
 .end-nav{
     background-color:#222222;
@@ -139,9 +150,13 @@ li{
 
 .right{
     background-color: #4A4A4A;
-    color: #de3030;
     display: flex;
     align-items: center;
     padding: 14px;
-    
+}
+
+.right a{
+    color: #de3030;
+    text-decoration: none;
+    font-weight: bold;
 }
